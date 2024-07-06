@@ -18,21 +18,21 @@ public class Calculationtest {
 
     @Test
     void divideTest() {
-        assertEquals(1, divide(2, 2));
+        assertEquals(0, divide(-10, 0));
     }
     
     @Test
     void sumOfDigitsTest() {
-        assertEquals(6, sumOfDigits(123));
+        assertEquals(-8, sumOfDigits(-12311));
     }
 
     @Test
     void maxNumberTest() {
-        assertEquals(7, maxDigit(123754));
+        assertEquals(5, maxDigit(-125));
     }
 
     @Test
     void isDividedTest() {
-        assertEquals(true, isDivided (10,2));
+        assertEquals(true, isDivided (10,1));
     }
 }

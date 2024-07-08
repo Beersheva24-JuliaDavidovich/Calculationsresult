@@ -33,6 +33,6 @@ public class Calculationtest {
 
     @Test
     void isDividedTest() {
-        assertEquals(true, isDivided (10,1));
+        assertEquals(true, isDivided (10,-2));
     }
 }

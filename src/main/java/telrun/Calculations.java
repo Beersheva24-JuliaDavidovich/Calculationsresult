@@ -52,12 +52,10 @@ public class Calculations {
     }
 
     public static boolean isDivided(int number, int divider) {
-        boolean answer = false;
+        boolean result = false;
         if (divider != 0 && number % divider == 0) {
-            answer = true;
-        } else {
-            answer = false;
+            result = true;
         }
-        return answer;
+        return result;
     }
 }
